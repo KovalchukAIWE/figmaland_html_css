@@ -733,8 +733,8 @@ li {
 }
 
 .contacts-form__textarea {
-    width: 240px;
-    height: 146px;
+    width: 280px;
+    height: 193px;
     background-color: #F4F4F4;
     padding: 23px 20px;
     border: none;
@@ -1178,8 +1178,8 @@ footer {
 }
 
 .contacts-form__textarea {
-    width: 313px;
-    height: 147px;
+    width: 353px;
+    height: 193px;
 }
 
 .contacts-location__map {
