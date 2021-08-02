@@ -8,6 +8,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 /*header*/
 
 a {
@@ -24,7 +28,7 @@ a {
 }
 
 .header-nav {
-    width: 386px;
+    width: 360px;
     height: 112px;
     margin: auto;
     display: flex;
@@ -33,7 +37,7 @@ a {
 
 /*/////////// hamburger menu //////////*/
 
-#menu__toggle {
+ #menu__toggle {
     opacity: 0;
   }
   
@@ -56,9 +60,9 @@ a {
   .menu__btn {
     display: flex;
     align-items: center;
-    position: fixed;
+    position: absolute;
     top: 40px;
-    left: 362px;
+    left: 336px;
   
     width: 26px;
     height: 26px;
@@ -230,7 +234,7 @@ a {
     width: 90%;
     position: sticky;
     position: -webkit-sticky;
-    top: 800px;
+    top: 560px;
     display: flex;
     justify-content: flex-end;
 }
@@ -243,7 +247,7 @@ a {
 /*features*/
 
 .features {
-    width: 386px;
+    width: 350px;
     margin: 0 auto;
 }
 
@@ -297,7 +301,7 @@ a {
 }
 
 .feature-video_style {
-    width: 386px;
+    min-width: 350px;
     height: 216px;
     border: none;
     border-radius: 30px;
@@ -357,6 +361,7 @@ a {
 
 .hero-img {
     max-width: 335px;
+    height: 210px;
 }
 
 /* subscribe */
@@ -546,7 +551,7 @@ a {
 }
 
 .testimonials-avatar {
-    width: 186px;
+    width: 200px;
     height: 55px;
     display: flex;
     justify-content: space-between;
