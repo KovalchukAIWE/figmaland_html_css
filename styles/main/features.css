@@ -1,0 +1,84 @@
+.features {
+    width: 350px;
+    margin: 0 auto;
+  }
+  
+  .feature-text__header,
+  .testimonials-header,
+  .pricing-text__header,
+  .contacts-text__header {
+    margin: auto;
+    text-align: center;
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-regular);
+  }
+  
+  .feature-text__description {
+    margin-bottom: 50px;
+  }
+  
+  .feature-items {
+    width: 255px;
+    display: flex;
+    margin: 80px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    order: 2;
+  }
+  
+  .feature-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  
+  .feature-video {
+    order: 1;
+    margin: 0 auto;
+  }
+  
+  .feature-video_style {
+    min-width: 350px;
+    height: 216px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 25px 30px 20px rgba(34, 60, 80, 0.2);
+  }
+  
+  .feature-items__card {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .feature-items__title {
+    margin: 10px 0;
+  }
+
+  @media (min-width: 768px) {
+  .features {
+    width: 870px;
+    margin: 0 auto;
+  }
+
+  .feature-wrapper {
+    width: 870px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .feature-items {
+    width: 870px;
+    flex-wrap: nowrap;
+    order: 1;
+  }
+
+  .feature-video {
+    order: 2;
+    margin: 0 auto;
+  }
+
+  .feature-video_style {
+    width: 760px;
+    height: 500px;
+  }
+  }

@@ -1,0 +1,19 @@
+:root {
+    --c-blue: #2091f9;
+    --c-dark: #252b42;
+    --c-white: #fff;
+    --c-input: #f4f4f4;
+
+    --fw-regular: 400;
+    --fw-bold: 700;
+
+    --fs-link: 15px;
+    --fs-p: 18px;
+    --fs-btn: 20px;
+    --fs-h1: 74px;
+    --fs-h2: 48px;
+    --fs-h3: 20px;
+    --fs-h4: 28px;
+    --fs-h5: 16px;
+}
+    

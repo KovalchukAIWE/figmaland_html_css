@@ -1,0 +1,114 @@
+.pricing-wrapper {
+    background-color: var(--c-dark);
+    color: var(--c-white);
+    padding-bottom: 100px;
+  }
+  
+  .pricing-text {
+    padding-top: 110px;
+  }
+  
+  .pricing-proposal {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+    width: 335px;
+  }
+  
+  .pricing-proposal__card {
+    width: 335px;
+    height: 607px;
+    border-radius: 10px;
+    background-color: var(--c-white);
+    color: var(--c-dark);
+  }
+  
+  .pricing-proposal__middle {
+    width: 335px;
+    height: 653px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    border-radius: 10px;
+    background-color: var(--c-blue);
+    color: var(--c-white);
+  }
+  
+  .pricing-proposal__heder {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+  }
+  
+  .pricing-proposal__description {
+    font-size: var(--fs-h5);
+    font-weight: var(--fw-regular);
+    width: 150px;
+    margin: 0 auto;
+  }
+  
+  .pricing-proposal__price {
+    width: 153px;
+    display: flex;
+    margin: 30px auto;
+  }
+  
+  .pricing-proposal__number {
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-bold);
+  }
+  
+  .pricing-proposal__text {
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  .pricing-text__description {
+    margin-bottom: 100px;
+  }
+  
+  .pricing-proposal__header {
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+    margin: 15px 0 5px;
+  }
+  
+  .pricing-proposal__description {
+    font-size: var(--fs-h5);
+    font-weight: var(--fw-regular);
+  }
+   
+  .pricing-feature {
+    padding: 10px;
+  }
+    
+  .btn__style--color {
+    background-color: var(--c-white);
+    color: var(--c-blue);
+  }
+
+@media (min-width: 768px) {
+    
+  .pricing-proposal {
+    width: 1105px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .pricing-proposal__middle {
+    margin-top: 80px;
+    padding-top: 40px;
+  }
+
+  .pricing-proposal__card {
+    margin-top: 123px;
+  }
+
+  .pricing-text__description {
+    margin-bottom: 0;
+  }
+}
