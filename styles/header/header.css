@@ -73,12 +73,12 @@
     text-align: center;
     font-size: var(--fs-h4);
     font-weight: var(--fw-regular);
+    overflow: hidden;
   }
 
   .description__header {
     margin-top: 50px;
     margin-bottom: 80px;
-    overflow: hidden;
   }
   
   .btn {
@@ -96,7 +96,7 @@
     font-weight: var(--fw-bold);
   }
   
-  .btn {
+  .btn__style--fw {
     font-weight: var(--fw-regular);
   }
   
@@ -119,7 +119,7 @@
     }
 
     .head {
-      width: 1000px;
+      width: 60%;
       height: 156px;
       margin: auto;
       display: flex;
@@ -162,9 +162,7 @@
     }
   
     .heading {
-      width: 690px;
-      margin-top: 0;
-      margin-bottom: 7px;
+      width: 35%;
     }
   
     .description {

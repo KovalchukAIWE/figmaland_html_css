@@ -2,105 +2,93 @@
     margin: 50px auto;
   }
   
-  .partners-items {
+  .partners {
     width: 275px;
     margin: 80px auto;
     display: flex;
     flex-wrap: wrap;
   }
   
-  .partners-items__google1,
-  .partners-items__google2,
-  .partners-items__amazon1,
-  .partners-items__amazon2,
-  .partners-items__microsoft,
-  .partners-items__uber,
-  .partners-items__dropbox {
+  .item {
     text-align: center;
     border: 1px solid #d8d8d8;
   }
+
+  .item:hover {
+    border: 1px solid var(--c-blue);
+  }
   
-  .partners-items__text {
+  .item__text {
     font-size: var(--fs-h5);
     font-weight: var(--fw-regular);
     margin: 20px;
   }
   
-  .partners-items__google1 {
+  .item__first {
     width: 273px;
     height: 151px;
     margin-bottom: 30px;
   }
   
-  .partners-items__google2 {
-    display: none;
-  }
-  
-  .partners-items__amazon1 {
+  .item__second {
     width: 273px;
     height: 151px;
     margin-bottom: 30px;
-  }
-  
-  .partners-items__amazon2,
-  .partners-items__uber,
-  .partners-items__dropbox {
-    display: none;
-  }
-  
-  .partners-items__microsoft {
-    width: 273px;
-    height: 151px;
-  }
-  
-  .partners-items__google1:hover,
-  .partners-items__google2:hover,
-  .partners-items__amazon1:hover,
-  .partners-items__amazon2:hover,
-  .partners-items__microsoft:hover,
-  .partners-items__uber:hover,
-  .partners-items__dropbox:hover {
-    border: 1px solid var(--c-blue);
   }
 
+  .item__third {
+    width: 273px;
+    height: 151px;
+  }
+  
+  .item__fourth,
+  .item__fifth,
+  .item__sixth,
+  .item__seventh,
+  .item__eighth {
+    display: none;
+  }
+    
   @media (min-width: 768px) {
   
-  .partners-items {
+  .partners {
     width: 1084px;
     height: 330px;
+    margin: 0 auto;
   }
 
-  .partners-items__google1,
-  .partners-items__google2 {
+  .item__first,
+  .item__sixth {
     width: 273px;
     height: 163px;
     margin: 0;
   }
 
-  .partners-items__google2,
-  .partners-items__amazon2 {
+  .item__sixth,
+  .item__eighth {
     display: block;
   }
 
-  .partners-items__amazon1,
-  .partners-items__amazon2 {
+  .item__second,
+  .item__eighth {
     width: 273px;
     height: 160px;
     margin: 0;
   }
 
-  .partners-items__microsoft {
+  .item__third {
     width: 301px;
     height: 165px;
   }
 
-  .partners-items__uber {
+  .item__fourth,
+  .item__seventh {
     display: block;
     width: 220px;
     height: 165px;
   }
 
-  .partners-items__dropbox {
+  .item__fifth {
     display: block;
     width: 309px;
     height: 164px;

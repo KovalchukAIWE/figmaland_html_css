@@ -1,49 +1,29 @@
 .subscribe-wrapper {
-    width: 355px;
+    width: 80%;
     display: flex;
     margin: 0 auto;
     text-align: center;
   }
   
-  .subscribe-description {
-    margin-top: 140px;
-    margin-bottom: 140px;
-  }
-  
-  .subscribe-img__desktop,
-  .subscribe-text__desktop {
+  .img__desktop {
     display: none;
   }
   
-  .subscribe-img__mobile {
+  .img__mobile {
     max-width: 355px;
     margin: 60px auto;
   }
 
-  .subscribe-text__mobile {
-    font-size: var(--fs-h2);
-    font-weight: var(--fw-regular);
-    margin: 24px auto;
-  }
-  
-  .subscribe-text__headerMobile {
-    font-size: var(--fs-h4);
-    font-weight: var(--fw-regular);
-  }
-  
-  .subscribe-text__header {
+  .text__header {
     font-size: var(--fs-h3);
     font-weight: var(--fw-bold);
   }
-  
-  .subscribe-text__paragraph {
-    font-size: var(--fs-p);
-    font-weight: var(--fw-regular);
-    margin-bottom: 100px; /*check!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+  .form {
+    display: flex;
   }
-  
-  .subscribe-form__input,
-  .contacts-form__input {
+    
+  .form__input {
     width: 353px;
     height: 54px;
     border: none;
@@ -51,59 +31,33 @@
     background-color: var(--c-input);
     padding-left: 39px;
   }
-  
-  /* .subscribe-form__btn,
-  .contacts-form__btn {
+
+  .btn__subscribe {
     width: 353px;
     height: 54px;
-    background-color: var(--c-blue);
-    border: none;
-    border-radius: 26px;
-    color:  var(--c-white);
-    font-size: var(--fs-h3);
-    font-weight: var(--fw-regular);
     margin-top: 12px;
   }
-  
-  .subscribe-form__btn:hover {
-    transform: scale(1.1);
-  } */
 
   @media (min-width: 768px) {
       
   .subscribe-wrapper {
-    width: 1240px;
-    justify-content: space-around;
+    width: 60%;
+    justify-content: space-between;
     text-align: left;
   }
 
-  .subscribe-img__desktop {
+  .img__desktop {
     display: block;
-    max-width: 677px;
+    width: 50%;
   }
 
-  .subscribe-img__mobile {
+  .img__mobile,
+  .description__text--hidden {
     display: none;
   }
 
-  .subscribe-text__header {
-    font-size: var(--fs-h3);
-    font-weight: var(--fw-bold);
+  .text__header {
     margin-bottom: 17px;
-  }
-
-  .subscribe-text__mobile,
-  .subscribe-text__headerMobile {
-    display: none;
-  }
-
-  .subscribe-text__desktop {
-    display: block;
-    word-spacing: 48px;
-    font-weight: var(--fw-regular);
-    width: 324px;
-    margin-bottom: 25px;
-    letter-spacing: 0.2px;
   }
 
   .subscribe-form__input {
@@ -111,10 +65,10 @@
     height: 54px;
   }
 
-  /* .subscribe-form__btn {
+  .btn__subscribe {
     width: 172px;
     height: 58px;
     margin-left: 12px;
     margin-top: 0;
-  } */
+  }
   }

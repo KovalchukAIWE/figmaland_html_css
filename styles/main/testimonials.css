@@ -2,38 +2,27 @@
     margin: 100px auto;
   }
   
-  .testimonials-img {
+  .img__brand {
     display: flex;
     margin: 95px auto 45px;
   }
   
-  .testimonials-avatar__mobile {
-    display: block;
-  }
-  
-  .testimonials-avatar__desktop {
-    display: none;
-  }
-  
-  .testimonials-avatar {
+  .avatar {
     width: 200px;
     height: 55px;
     display: flex;
     justify-content: space-between;
     margin: 60px auto 80px;
   }
-  
-  .testimonials-avatar__text {
+ .avatar__title {
     align-items: center;
-  }
-  
-  .testimonials-avatar__header {
     font-size: var(--fs-h5);
     font-weight: var(--fw-regular);
     margin: 5px 0;
   }
   
-  .testimonials-avatar__description {
+  .avatar__description {
+    align-items: center;
     font-size: var(--fs-link);
     font-weight: var(--fw-regular);
   }
@@ -44,20 +33,11 @@
     margin: 180px auto;
   }
 
-  .testimonials-img {
-    display: flex;
+  .img__brand {
     margin: 80px auto 60px;
   }
 
   .testimonials-text__description {
     width: 990px;
-  }
-
-  .testimonials-avatar__mobile {
-    display: none;
-  }
-
-  .testimonials-avatar__desktop {
-    display: block;
   }
 }

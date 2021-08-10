@@ -116,7 +116,7 @@
 @media (min-width: 768px) {
     
   .contacts-wrapper {
-    width: 1230px;
+    width: 60%;
     margin: 200px auto 100px;
   }
 
@@ -126,7 +126,7 @@
   }
 
   .contacts-form {
-    width: 453px;
+    width: 34%;
     height: 669px;
   }
 
@@ -147,7 +147,7 @@
   }
 
   .contacts-location {
-    width: 725px;
+    width: 60%;
   }
 
   .contacts-location__icons {
