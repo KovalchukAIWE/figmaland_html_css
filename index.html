@@ -360,7 +360,7 @@
         </div>
       </div>
  <!-- ///////////////////////////////////////////////////////////////      -->
-      <div class="contacts-wrapper">
+      <div  id="contacts" class="contacts-wrapper">
         <h2 class="title">Contact Us</h2>
         <h4 class="description">
           Most calendars are designed for teams. Slate is designed for
@@ -386,8 +386,8 @@
              ><i class="fab fa-linkedin fa-2x"></i
            ></a>
        </div>
-        <div class="contacts-location__iconsMobile">
-          <div class="contacts-location__itemMobile">
+        <div class="location__icons--mobile">
+          <div class="location__item--mobile">
             <svg
               width="26"
               height="33"
@@ -416,11 +416,11 @@
                 </clipPath>
               </defs>
             </svg>
-            <h6 class="contacts-location__textMobile">
+            <h6 class="location__text location__text--mobile">
               6386 Spring St undefined Anchorage, Georgia 12473 United States
             </h6>
           </div>
-          <div class="contacts-location__itemMobile">
+          <div class="location__item--mobile">
             <svg
               width="22"
               height="35"
@@ -445,9 +445,9 @@
                 </clipPath>
               </defs>
             </svg>
-            <h6 class="contacts-location__textMobile">(843) 555-0130</h6>
+            <h6 class="location__text--mobile">(843) 555-0130</h6>
           </div>
-          <div class="contacts-location__itemMobile">
+          <div class="location__item--mobile">
             <svg
               width="28"
               height="23"
@@ -472,25 +472,25 @@
                 </clipPath>
               </defs>
             </svg>
-            <h6 class="contacts-location__textMobile">
+            <h6 class="location__text--mobile">
               willie.jennings@example.com
             </h6>
           </div>
         </div>
-        <div id="contacts" class="contacts">
-          <form class="contacts-form">
-            <h3 class="contacts-form__header">Contact Us</h3>
-            <input class="form__input" type="text" placeholder="Your Name" />
-            <input class="form__input" type="email" placeholder="Your Email" pattern=".+@.com" required />
+        <div class="contacts">
+          <form class="contacts__form">
+            <h3 class="form__title">Contact Us</h3>
+            <input class="form__input contacts__form--input" type="text" placeholder="Your Name" />
+            <input class="form__input contacts__form--input" type="email" placeholder="Your Email" pattern=".+@.com" required />
             <textarea
-              class="contacts-form__textarea"
+              class="contacts__form--textarea"
               placeholder="Your Meassage"
             ></textarea>
             <button class="btn" type="submit">Send</button>
           </form>
-          <div class="contacts-location">
-            <div class="contacts-location__icons">
-              <div class="contacts-location__item">
+          <div class="location">
+            <div class="location__icons">
+              <div class="location__item">
                 <svg
                   width="26"
                   height="33"
@@ -519,12 +519,12 @@
                     </clipPath>
                   </defs>
                 </svg>
-                <h6 class="contacts-location__text">
+                <h6 class="location__text">
                   6386 Spring St undefined Anchorage, Georgia 12473 United
                   States
                 </h6>
               </div>
-              <div class="contacts-location__item">
+              <div class="location__item">
                 <svg
                   width="22"
                   height="35"
@@ -549,9 +549,9 @@
                     </clipPath>
                   </defs>
                 </svg>
-                <h6 class="contacts-location__text">(843) 555-0130</h6>
+                <h6 class="location__text">(843) 555-0130</h6>
               </div>
-              <div class="contacts-location__item">
+              <div class="location__item">
                 <svg
                   width="28"
                   height="23"
@@ -576,14 +576,14 @@
                     </clipPath>
                   </defs>
                 </svg>
-                <h6 class="contacts-location__text">
+                <h6 class="location__text">
                   willie.jennings@example.com
                 </h6>
               </div>
             </div>
-            <div class="contacts-location__map">
+            <div class="location__map">
               <iframe
-                class="contacts-location__google"
+                class="location__map--google"
                 src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=hayes%20valley+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               ></iframe
               ><a href="https://www.maps.ie/draw-radius-circle-map/"
@@ -614,168 +614,53 @@
         </div>
       </div>
     </main>
+<!-- ///////////////////////////////////////////////////////////////////////     -->
     <footer>
-      <div class="footer-wrapper__mobile">
-        <div class="footer-menu__mobile">
-          <div class="footer-menu__items">
-            <h3 class="footer-menu__header">Annette Steward</h3>
-            <ul>
-              <li class="footer-menu__item">Jennie Cooper</li>
-              <li class="footer-menu__item">Julie Henry</li>
-              <li class="footer-menu__item">Johnny Murphy</li>
-              <li class="footer-menu__item">Gregory Mccoy</li>
-              <li class="footer-menu__item">Marvin Mckinney</li>
-            </ul>
-          </div>
-          <div class="footer-menu__items">
-            <h3 class="footer-menu__header">Annette Steward</h3>
-            <ul>
-              <li class="footer-menu__item">Jennie Cooper</li>
-              <li class="footer-menu__item">Julie Henry</li>
-              <li class="footer-menu__item">Johnny Murphy</li>
-              <li class="footer-menu__item">Gregory Mccoy</li>
-              <li class="footer-menu__item">Marvin Mckinney</li>
-            </ul>
-          </div>
-          <div class="footer-menu__items">
-            <h3 class="footer-menu__header">Annette Steward</h3>
-            <ul>
-              <li class="footer-menu__item">Jennie Cooper</li>
-              <li class="footer-menu__item">Julie Henry</li>
-              <li class="footer-menu__item">Johnny Murphy</li>
-              <li class="footer-menu__item">Gregory Mccoy</li>
-              <li class="footer-menu__item">Marvin Mckinney</li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer-contacts">
-          <div class="footer-location">
-            <svg
-              width="26"
-              height="33"
-              viewBox="0 0 26 33"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g clip-path="url(#clip0)">
-                <path
-                  d="M13.0013 19.884C16.4941 19.884 19.3346 17.0435 19.3346 13.5506C19.3346 10.0578 16.4941 7.21729 13.0013 7.21729C9.50847 7.21729 6.66797 10.0578 6.66797 13.5506C6.66797 17.0435 9.50847 19.884 13.0013 19.884ZM13.0013 10.384C14.7477 10.384 16.168 11.8042 16.168 13.5506C16.168 15.297 14.7477 16.7173 13.0013 16.7173C11.2549 16.7173 9.83464 15.297 9.83464 13.5506C9.83464 11.8042 11.2549 10.384 13.0013 10.384Z"
-                  fill="#fff"
-                />
-                <path
-                  d="M11.7485 32.256C12.0164 32.4473 12.3375 32.5502 12.6668 32.5502C12.9961 32.5502 13.3172 32.4473 13.5851 32.256C14.0665 31.9155 25.3794 23.7471 25.3335 13.5505C25.3335 6.56637 19.6509 0.883789 12.6668 0.883789C5.68272 0.883789 0.000139393 6.56637 0.000139393 13.5425C-0.0457773 23.7471 11.2671 31.9155 11.7485 32.256ZM12.6668 4.05046C17.9061 4.05046 22.1668 8.31121 22.1668 13.5584C22.2001 20.5852 15.2191 26.8948 12.6668 28.9642C10.1161 26.8932 3.13356 20.582 3.16681 13.5505C3.16681 8.31121 7.42756 4.05046 12.6668 4.05046Z"
-                  fill="#fff"
-                />
-              </g>
-              <defs>
-                <clipPath>
-                  <rect
-                    width="26"
-                    height="32"
-                    fill="white"
-                    transform="translate(0 0.717285)"
-                  />
-                </clipPath>
-              </defs>
-            </svg>
-            <h6 class="footer-location__text">
-              7480 Mockingbird Hill undefined
-            </h6>
-          </div>
-          <div class="footer-location">
-            <svg
-              width="22"
-              height="35"
-              viewBox="0 0 22 35"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g clip-path="url(#clip0)">
-                <path
-                  d="M16.5417 1.17578H4.875C2.45417 1.17578 0.5 3.12995 0.5 5.55078V28.8841C0.5 31.3049 2.45417 33.2591 4.875 33.2591H16.5417C18.9625 33.2591 20.9167 31.3049 20.9167 28.8841V5.55078C20.9167 3.12995 18.9625 1.17578 16.5417 1.17578ZM13.625 30.3424H7.79167V28.8841H13.625V30.3424ZM18.3646 25.9674H3.05208V5.55078H18.3646V25.9674Z"
-                  fill="#fff"
-                />
-              </g>
-              <defs>
-                <clipPath>
-                  <rect
-                    width="21"
-                    height="34"
-                    fill="white"
-                    transform="translate(0.5 0.217285)"
-                  />
-                </clipPath>
-              </defs>
-            </svg>
-            <h6 class="footer-location__text">(239) 555-0108</h6>
-          </div>
-          <div class="socials">            
-              <a
-                class="socials__item--color"
-                href="https://twitter.com/"
-                target="_blank"
-                ><i class="fab fa-twitter fa-2x"></i
-              ></a>            
-              <a
-                class="socials__item"
-                href="https://www.facebook.com/"
-                target="_blank"
-                ><i class="fab fa-facebook-square fa-2x"></i
-              ></a>           
-              <a
-                class="socials__item"
-                href="https://www.linkedin.com/"
-                target="_blank"
-                ><i class="fab fa-linkedin fa-2x"></i
-              ></a>           
-          </div>
-        </div>
-      </div>
       <div class="footer-wrapper">
-        <div class="footer-menu">
-          <div class="footer-menu__pages">
-            <h3 class="footer-menu__header">Pages</h3>
+        <div class="menu">
+          <div>
+            <h3 class="menu__title">Pages</h3>
             <ul>
-              <li class="footer-menu__item">
-                <a class="header-nav__link" href="#">Home</a>
+              <li class="nav nav__footer">
+                <a class="nav__link" href="#">Home</a>
               </li>
-              <li class="footer-menu__item">
-                <a class="header-nav__link" href="#features">Product</a>
+              <li class="menu__item">
+                <a class="nav__link" href="#features">Product</a>
               </li>
-              <li class="footer-menu__item">
-                <a class="header-nav__link" href="#pricing">Pricing</a>
+              <li class="menu__item">
+                <a class="nav__link" href="#pricing">Pricing</a>
               </li>
-              <li class="footer-menu__item">
-                <a class="header-nav__link" href="#about">About</a>
+              <li class="menu__item">
+                <a class="nav__link" href="#about">About</a>
               </li>
-              <li class="footer-menu__item">
-                <a class="header-nav__link" href="#contacts">Contact</a>
+              <li class="menu__item">
+                <a class="nav__link" href="#contacts">Contact</a>
               </li>
             </ul>
           </div>
-          <div class="footer-menu__tomothy">
-            <h3 class="footer-menu__header">Tomothy</h3>
+          <div>
+            <h3 class="menu__title">Tomothy</h3>
             <ul>
-              <li class="footer-menu__item">Eleanor Edwards</li>
-              <li class="footer-menu__item">Ted Robertson</li>
-              <li class="footer-menu__item">Annette Russell</li>
-              <li class="footer-menu__item">Jennie Mckinney</li>
-              <li class="footer-menu__item">Gloria Richards</li>
+              <li class="menu__item">Eleanor Edwards</li>
+              <li class="menu__item">Ted Robertson</li>
+              <li class="-menu__item">Annette Russell</li>
+              <li class="menu__item">Jennie Mckinney</li>
+              <li class="menu__item">Gloria Richards</li>
             </ul>
           </div>
-          <div class="footer-menu__janeblack">
-            <h3 class="footer-menu__header">Jane Black</h3>
+          <div>
+            <h3 class="menu__title">Jane Black</h3>
             <ul>
-              <li class="footer-menu__item">Philip Jones</li>
-              <li class="footer-menu__item">Product</li>
-              <li class="footer-menu__item">Colleen Russell</li>
-              <li class="footer-menu__item">Marvin Hawkins</li>
-              <li class="footer-menu__item">Bruce Simmmons</li>
+              <li class="menu__item">Philip Jones</li>
+              <li class="menu__item">Product</li>
+              <li class="menu__item">Colleen Russell</li>
+              <li class="menu__item">Marvin Hawkins</li>
+              <li class="menu__item">Bruce Simmmons</li>
             </ul>
           </div>
         </div>
         <div>
-          <div class="footer-location">
+          <div class="location">
             <svg
               width="26"
               height="33"
@@ -804,11 +689,11 @@
                 </clipPath>
               </defs>
             </svg>
-            <h6 class="footer-location__text">
+            <h6 class="location__text">
               7480 Mockingbird Hill undefined
             </h6>
           </div>
-          <div class="footer-location">
+          <div class="location">
             <svg
               width="22"
               height="35"
@@ -833,23 +718,23 @@
                 </clipPath>
               </defs>
             </svg>
-            <h6 class="footer-location__text">(239) 555-0108</h6>
+            <h6 class="location__text">(239) 555-0108</h6>
           </div>
-          <div class="socials">          
+          <div class="socials socials__footer"> 
               <a
-                class="socials__item"
+                class="socials__item--footer"
                 href="https://twitter.com/"
                 target="_blank"
                 ><i class="fab fa-twitter fa-2x"></i
               ></a>           
               <a
-                class="socials__item"
+                class="socials__item--footer"
                 href="https://www.facebook.com/"
                 target="_blank"
                 ><i class="fab fa-facebook-square fa-2x"></i
               ></a>           
               <a
-                class="socials__item"
+                class="socials__item--footer"
                 href="https://www.linkedin.com/"
                 target="_blank"
                 ><i class="fab fa-linkedin fa-2x"></i
