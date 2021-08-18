@@ -76,7 +76,7 @@
   }  
 
   @media (min-width: 768px) {
-    .hamburger-menu {
+    .menu__burger {
       display: none;
     }
   }

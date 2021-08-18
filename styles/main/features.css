@@ -23,7 +23,7 @@
   
   .video {
     order: 1;
-    margin: 0 auto;
+    margin: 50px auto;
     min-width: 350px;
     height: 216px;
     border: none;

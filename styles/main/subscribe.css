@@ -1,7 +1,7 @@
 .subscribe-wrapper {
     width: 80%;
     display: flex;
-    margin: 0 auto;
+    margin: 80px auto;
     text-align: center;
   }
   
@@ -21,6 +21,9 @@
 
   .form {
     display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    margin-bottom: 35px;
   }
     
   .form__input {
@@ -70,5 +73,9 @@
     height: 58px;
     margin-left: 12px;
     margin-top: 0;
+  }
+
+  .form {
+    flex-wrap: nowrap;
   }
   }

@@ -1,10 +1,10 @@
 .hero-wrapper {
     width: 80%;
-    margin: 0 auto;
+    margin: 30px auto;
   }
 
   .text {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
   }
   
@@ -13,6 +13,10 @@
     height: 210px;
     margin: 0 auto;
     text-align: center;
+  }
+  
+  .btn__hero {
+    margin: 60px auto;
   }
 
   @media (min-width: 768px) {
@@ -31,6 +35,8 @@
       .title__left,
       .description__left {
         text-align: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
       }
 
       .description__left {
@@ -38,9 +44,14 @@
         margin: 0;
       }
 
-      .btn__hero {
-        margin: 0;
+      .text {
+        width: 50%;
       }
+
+      .btn__hero {
+        margin-left: 0;
+      }
+
   }
 
   @media (min-width: 1080px) {
