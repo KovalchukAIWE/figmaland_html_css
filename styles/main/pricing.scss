@@ -1,0 +1,92 @@
+.title__pricing {
+  padding-top: 100px;
+}
+
+.pricing-wrapper {
+    background-color: $c-dark;
+    color: $c-white;
+    padding-bottom: 100px;
+  }
+
+  .proposal {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+    width: 335px;
+    &__card {
+      width: 335px;
+      height: 607px;
+      border-radius: 10px;
+      background-color: $c-white;
+      color: $c-dark;
+      &--middle {
+        width: 335px;
+        height: 653px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding-top: 40px;
+        border-radius: 10px;
+        background-color: $c-blue;
+        color: $c-white;
+      }
+    }
+    &__description {
+      font-size: $fs-h5;
+      font-weight: $fw-regular;
+      width: 150px;
+      margin: 0 auto;
+    }
+    &__price {
+      width: 153px;
+      display: flex;
+      margin: 30px auto;
+    }
+    &__number {
+      font-size: $fs-h1;
+      font-weight: $fw-bold;
+    }
+    &__text {
+      text-align: left;
+      margin-left: 10px;
+    }
+    &__title {
+      font-size: $fs-h3;
+      font-weight: $fw-bold;
+      margin-top: 18px;
+      margin-bottom: 10px;
+    }
+    &__feature {
+      padding: 15px;
+    }
+    @media (min-width: 768px) {
+      width: 1105px;
+      display: flex;
+      margin: 0 auto;
+      justify-content: space-between;
+      text-align: center;
+      &__card {
+        margin-top: 123px;
+        &--middle {
+          height: 693px;
+          margin-top: 80px;
+          padding-top: 40px;
+        }
+      }
+    }
+  }
+  
+  .pricing-text__description {
+    margin-bottom: 100px;
+  }
+      
+  .btn__style--color {
+    background-color: $c-white;
+    color: $c-blue;
+  }
+
+@media (min-width: 768px) {
+  .text__description {
+    margin-bottom: 0;
+  }
+}

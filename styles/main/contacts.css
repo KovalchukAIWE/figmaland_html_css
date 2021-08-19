@@ -1,158 +1,87 @@
-.contacts-wrapper {
-    margin: 150px auto;
-  }
+/*
+Error: Undefined variable: "$c-input".
+        on line 26 of C:\Users\STEELTECH\Desktop\Projects\figmaland_html_css\styles\main\contacts.scss
 
-  .contacts__form {
-    width: 378px;
-    height: 669px;
-    border: 1px solid #dddddd;
-    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-    border-radius: 20px;
-    text-align: center;
-    margin: 0 auto;
-  }
-  
-  .form__title {
-    margin-top: 52px;
-    margin-bottom: 45px;
-    font-size: var(--fs-h3);
-    font-weight: var(--fw-bold);
-  }
-  
-  .contacts__form--input {
-    width: 280px;
-    margin-bottom: 45px;
-    padding-left: 20px;
-  }
-  
-  .contacts__form--textarea {
-    width: 280px;
-    height: 193px;
-    background-color: var(--c-input);
-    padding: 23px 20px;
-    border: none;
-    resize: none;
-    margin-bottom: 45px;
-  }
+21:         padding-left: 20px;
+22:       }
+23:       &--textarea {
+24:         width: 280px;
+25:         height: 193px;
+26:         background-color: $c-input;
+27:         padding: 23px 20px;
+28:         border: none;
+29:         resize: none;
+30:         margin-bottom: 45px;
+31:       }
 
-  .location__text {
-    font-size: var(--fs-h5);
-    font-weight: var(--fw-regular);
-    margin-top: 20px;
-  }
-  
-  .location__text--mobile {
-    margin-top: 0;
-    margin-left: 30px;
-  }
-  
-  .location__map {
-    display: none;
-  }
-  
-  .location__map--google {
-    width: 516px;
-    height: 343px;
-    border: none;
-  }
-  
-  .socials__item--color:hover {
-    transform: scale(1.1);
-  }
-
-  .socials__mobile {
-    width: 170px;
-    margin: 50px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: var(--c-blue);
-    font-size: var(--fs-h3);
-  }
-
-  .socials__item--color {
-    color: var(--c-blue);
-  }
-  
-  .location__icons {
-    display: none;
-  }
-
-  .location__icons--mobile {
-    width: 349px;
-    margin: 50px auto;
-  }
-  
-  .location__item--mobile {
-    display: flex;
-    margin-bottom: 15px;
-  }
-
-@media (min-width: 768px) {
-    
-  .contacts-wrapper {
-    width: 60%;
-    margin: 200px auto 100px;
-  }
-
-  .contacts {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .contacts__form {
-    width: 34%;
-    height: 669px;
-  }
-
-  .contacts__form--input {
-    width: 353px;
-    margin-bottom: 45px;
-    padding-left: 20px;
-  }
-
-  .contacts__form--textarea {
-    width: 353px;
-    height: 193px;
-  }
-
-  .location__map {
-    display: block;
-    margin: 60px 105px;
-  }
-
-  .location {
-    width: 60%;
-  }
-
-  .location__icons {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-  }
-
-  .location__icons--mobile {
-    display: none;
-  }
-
-  .contacts-nav__socials {
-    display: flex;
-  }
-
-  .location__item:first-child {
-    width: 280px;
-  }
-
-  .location__item:last-child {
-    margin-top: 10px;
-  }
-
-  .socials__mobile {
-    display: none;
-  }
-
-  .socials__item--color {
-    color: var(--c-blue);
-  }
-}
+Backtrace:
+C:\Users\STEELTECH\Desktop\Projects\figmaland_html_css\styles\main\contacts.scss:26
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$c-input\".\A         on line 26 of C:\Users\STEELTECH\Desktop\Projects\figmaland_html_css\styles\main\contacts.scss\A \A 21:         padding-left: 20px;\A 22:       }\A 23:       &--textarea {\A 24:         width: 280px;\A 25:         height: 193px;\A 26:         background-color: $c-input;\A 27:         padding: 23px 20px;\A 28:         border: none;\A 29:         resize: none;\A 30:         margin-bottom: 45px;\A 31:       }"; }

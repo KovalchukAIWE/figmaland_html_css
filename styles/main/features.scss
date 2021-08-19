@@ -1,0 +1,61 @@
+  .title {
+    margin: auto;
+    text-align: center;
+    font-size: $fs-h2;
+    font-weight: $fw-regular;
+  }
+  
+  .item {
+    &__features{
+    width: 255px;
+    display: flex;
+    margin: 80px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    order: 2;
+      @media (min-width: 768px) {
+        width: 100%;
+        flex-wrap: nowrap;
+        order: 1;
+      }
+    }
+    &__card {
+      text-align: center;
+      margin: 20px;
+    }
+    &__title {
+      margin: 10px 0;
+    }
+    &__description {
+      font-size: $fs-p;
+      font-weight: $fw-regular;
+    }
+  }
+  
+  .features {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    @media (min-width: 768px) {
+      width: 50%;
+      display: flex;
+      margin: 0 auto;
+    }
+  }
+  
+  .video {
+    order: 1;
+    margin: 50px auto;
+    min-width: 350px;
+    height: 216px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 25px 30px 20px rgba(34, 60, 80, 0.2);
+      @media (min-width: 768px) {
+        order: 2;
+        margin: 0 auto;
+        width: 760px;
+        height: 500px;
+      }
+  }
