@@ -1,13 +1,13 @@
 .header-wrapper {
   height: 847px;
-  background-image: url(../../images/mobile_header_bg.jpg);
+  background-image: url(../images/mobile_header_bg.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
   color: #fff;
   padding-bottom: 20%; }
   @media (min-width: 768px) {
     .header-wrapper {
-      background-image: url(../../images/header_bg.jpg); } }
+      background-image: url(../images/header_bg.jpg); } }
 
 .head {
   width: 360px;
