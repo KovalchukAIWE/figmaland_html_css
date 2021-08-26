@@ -21,9 +21,9 @@ html {
   scroll-behavior: smooth;
 }
 
-body::-webkit-scrollbar {
-  display: none;
-}
+// body::-webkit-scrollbar {
+//   display: none;
+// }
  
 li {
   list-style: none;
@@ -31,6 +31,7 @@ li {
 
 a {
   text-decoration: none;
+  color: $c-white;
 }
 
 .sticky-arrow {

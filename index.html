@@ -37,7 +37,7 @@
     <title>Figmaland</title>
   </head>
   <body>
-    <header class="header-wrapper">
+    <header class="header">
       <div class="head">
         <nav class="nav">
           <a class="nav__link" href="#">Home</a>
@@ -50,17 +50,17 @@
           <div class="logo__top"></div>
           <h3>figma l<span class="logo__triangle"></span>nd</h3>
         </div>
-        <div class="menu__burger">
-          <input id="menu__toggle" type="checkbox" />
-          <label class="menu__btn" for="menu__toggle">
+        <div class="burger-menu">
+          <input class="burger-menu__toggle" type="checkbox" />
+          <label class="burger-menu__btn" for="burger-menu__toggle">
             <span></span>
           </label>
-          <nav class="menu__box">
-            <a class="menu__item" href="#">Home</a>
-            <a class="menu__item" href="#features">Product</a>
-            <a class="menu__item" href="#pricing">Pricing</a>
-            <a class="menu__item" href="#about">About</a>
-            <a class="menu__item" href="#contacts">Contact</a>
+          <nav class="burger-menu__box">
+            <a class="burger-menu__item" href="#">Home</a>
+            <a class="burger-menu__item" href="#features">Product</a>
+            <a class="burger-menu__item" href="#pricing">Pricing</a>
+            <a class="burger-menu__item" href="#about">About</a>
+            <a class="burger-menu__item" href="#contacts">Contact</a>
           </nav>
         </div>
         <div class="socials">
@@ -616,50 +616,50 @@
       </div>
     </main>
 <!-- ///////////////////////////////////////////////////////////////////////     -->
-    <footer>
-      <div class="footer-wrapper">
-        <div class="footer__block">
-          <h3 class="menu__title">Pages</h3>
+    <footer class="footer">
+      <div class="footer__container footer__container--pos">
+        <div class="footer__column">
+          <h3 class="footer__title footer__title--pos">Pages</h3>
           <ul>
-            <li class="menu__item menu__item--padding">
-              <a class="nav__link" href="#">Home</a>
+            <li class="footer__item footer__item--padding">
+              <a href="#">Home</a>
             </li>
-            <li class="menu__item menu__item--padding">
-              <a class="nav__link" href="#features">Product</a>
+            <li class="footer__item footer__item--padding">
+              <a href="#features">Product</a>
             </li>
-            <li class="menu__item menu__item--padding">
-              <a class="nav__link" href="#pricing">Pricing</a>
+            <li class="footer__item footer__item--padding">
+              <a href="#pricing">Pricing</a>
             </li>
-            <li class="menu__item menu__item--padding">
-              <a class="nav__link" href="#about">About</a>
+            <li class="footer__item footer__item--padding">
+              <a href="#about">About</a>
             </li>
-            <li class="menu__item menu__item--padding">
-              <a class="nav__link" href="#contacts">Contact</a>
+            <li class="footer__item footer__item--padding">
+              <a href="#contacts">Contact</a>
             </li>
           </ul>
         </div>
-        <div class="footer__block">
-          <h3 class="menu__title">Tomothy</h3>
+        <div class="footer__column">
+          <h3 class="footer__title">Tomothy</h3>
           <ul>
-            <li class="menu__item menu__item--padding">Eleanor Edwards</li>
-            <li class="menu__item menu__item--padding">Ted Robertson</li>
-            <li class="menu__item menu__item--padding">Annette Russell</li>
-            <li class="menu__item menu__item--padding">Jennie Mckinney</li>
-            <li class="menu__item menu__item--padding">Gloria Richards</li>
+            <li class="footer__item footer__item--padding">Eleanor Edwards</li>
+            <li class="footer__item footer__item--padding">Ted Robertson</li>
+            <li class="footer__item footer__item--padding">Annette Russell</li>
+            <li class="footer__item footer__item--padding">Jennie Mckinney</li>
+            <li class="footer__item footer__item--padding">Gloria Richards</li>
           </ul>
         </div>
-        <div class="footer__block">
-          <h3 class="menu__title">Jane Black</h3>
+        <div class="footer__column">
+          <h3 class="footer__title">Jane Black</h3>
           <ul>
-            <li class="menu__item menu__item--padding">Philip Jones</li>
-            <li class="menu__item menu__item--padding">Product</li>
-            <li class="menu__item menu__item--padding">Colleen Russell</li>
-            <li class="menu__item menu__item--padding">Marvin Hawkins</li>
-            <li class="menu__item menu__item--padding">Bruce Simmmons</li>
+            <li class="footer__item footer__item--padding">Philip Jones</li>
+            <li class="footer__item footer__item--padding">Product</li>
+            <li class="footer__item footer__item--padding">Colleen Russell</li>
+            <li class="footer__item footer__item--padding">Marvin Hawkins</li>
+            <li class="footer__item footer__item--padding">Bruce Simmmons</li>
           </ul>
         </div>
-        <div class="footer__block">
-          <div class="location__footer">
+        <div class="footer__column">
+          <div class="footer__location">
             <svg
               width="26"
               height="33"
@@ -688,11 +688,11 @@
                 </clipPath>
               </defs>
             </svg>
-            <h6 class="location__text">
+            <h6 class="footer__contacts footer__contacts--pos">
               7480 Mockingbird Hill undefined
             </h6>
           </div>
-          <div class="location__footer">
+          <div class="footer__location">
             <svg
               width="22"
               height="35"
@@ -717,23 +717,20 @@
                 </clipPath>
               </defs>
             </svg>
-            <h6 class="location__text">(239) 555-0108</h6>
+            <h6 class="footer__contacts footer__contacts--pos">(239) 555-0108</h6>
           </div>
-          <div class="socials socials__footer"> 
+          <div class="socials footer__socials--style"> 
               <a
-                class="socials__item--footer"
                 href="https://twitter.com/"
                 target="_blank"
                 ><i class="fab fa-twitter fa-2x"></i
               ></a>           
               <a
-                class="socials__item--footer"
                 href="https://www.facebook.com/"
                 target="_blank"
                 ><i class="fab fa-facebook-square fa-2x"></i
               ></a>           
               <a
-                class="socials__item--footer"
                 href="https://www.linkedin.com/"
                 target="_blank"
                 ><i class="fab fa-linkedin fa-2x"></i
