@@ -37,8 +37,8 @@
     <title>Figmaland</title>
   </head>
   <body>
-    <header class="header">
-      <div class="head">
+    <header class="header-wrapper header-wrapper--padding">
+      <div class="header header--pos">
         <nav class="nav">
           <a class="nav__link" href="#">Home</a>
           <a class="nav__link" href="#features">Product</a>
@@ -63,29 +63,29 @@
             <a class="burger-menu__item" href="#contacts">Contact</a>
           </nav>
         </div>
-        <div class="socials">
+        <div class="socials socials--visibility">
            <a
-              class="socials__item"
+              class="socials__item--white"
               href="https://twitter.com/"
               target="_blank"
               ><i class="fab fa-twitter fa-2x"></i
             ></a>
             <a
-              class="socials__item"
+              class="socials__item--white"
               href="https://www.facebook.com/"
               target="_blank"
               ><i class="fab fa-facebook-square fa-2x"></i
             ></a>
             <a
-              class="socials__item"
+              class="socials__item--white"
               href="https://www.linkedin.com/"
               target="_blank"
               ><i class="fab fa-linkedin fa-2x"></i
             ></a>
         </div>
       </div>
-      <h1 class="heading">The best products start with Figma</h1>
-      <h4 class="description description__header">
+      <h1 class="heading heading--pos">The best products start with Figma</h1>
+      <h4 class="subtitle subtitle--center">
         Most calendars are designed for teams. Slate is designed for
         freelancers
       </h4>      
@@ -100,14 +100,14 @@
       <a href="#"><i class="fas fa-arrow-circle-up fa-2x"></i></a>
     </div>
     <main>
-      <h2 id="features" class="title">Features</h2>
-        <h4 class="description">
+      <h2 id="features" class="title title--center">Features</h2>
+        <h4 class="subtitle subtitle--center">
           Most calendars are designed for teams. Slate is designed for
           freelancers
         </h4>
-        <div class="features">
-          <div class="item__features">
-            <div class="item__card">
+        <div class="features features--pos">
+          <div class="features__cards-wrapper features__cards-wrapper--pos">
+            <div class="features__card features__card--pos">
               <svg
                 width="47"
                 height="47"
@@ -120,15 +120,15 @@
                   fill="#2091F9"
                 />
               </svg>
-              <h3 class="item__title">
+              <h3 class="features__title features__title--pos">
                 OpenType features Variable fonts
               </h3>
-              <p class="item__description">
+              <p class="features__subtitle">
                 Slate helps you see how many more days you need to work to reach
                 your financial goal.
               </p>
             </div>
-            <div class="item__card">
+            <div class="features__card features__card--pos">
               <svg
                 width="45"
                 height="42"
@@ -141,13 +141,13 @@
                   fill="#2091F9"
                 />
               </svg>
-              <h3 class="item__title">Design with real data</h3>
-              <p class="item__description">
+              <h3 class="features__title features__title--pos">Design with real data</h3>
+              <p class="features__subtitle">
                 Slate helps you see how many more days you need to work to reach
                 your financial goal.
               </p>
             </div>
-            <div class="item__card">
+            <div class="features__card features__card--pos">
               <svg
                 width="49"
                 height="47"
@@ -160,72 +160,73 @@
                   fill="#2091F9"
                 />
               </svg>
-              <h3 class="item__title">Fastest way to take action</h3>
-              <p class="item__description">
+              <h3 class="features__title features__title--pos">Fastest way to take action</h3>
+              <p class="features__subtitle">
                 Slate helps you see how many more days you need to work to reach
                 your financial goal.
               </p>
             </div>
           </div>
             <iframe
-              class="video"
+              class="video video--pos"
               src="https://www.youtube.com/embed/tgbNymZ7vqY"
             >
             </iframe>
         </div>
-      <div id="about" class="hero-wrapper">
-        <div class="text">
-          <h2 class="title title__left">Fastest way to organize</h2>
-          <h4 class="description description__left">
+<!-- /////////////////////////////////////////////////////////////// -->
+      <div id="about" class="hero hero--pos">
+        <div class="hero__left-block hero__left-block--mobile">
+          <h2 class="title title--left">Fastest way to organize</h2>
+          <h4 class="subtitle subtitle--left">
             Most calendars are designed for teams. Slate is designed for
             freelancers
           </h4>
             <a
-              class="btn btn__hero"
+              class="btn hero__btn"
               href="https://www.figma.com/"
               target="_blank"
               >Try For Free</a
             >
         </div>
-        <img class="img" src="./images/MacbookPro.jpg" alt="macbook_pro" />
+        <img class="hero__img" src="./images/MacbookPro.jpg" alt="macbook_pro" />
       </div>
 <!-- //////////////////////////////////////////////////// -->
-      <div class="subscribe-wrapper">
+      <div class="subscribe">
         <img
-          class="img img__desktop"
+          class="subscribe__desktop"
           src="./images/undraw_newsletter_vovu.jpg"
           alt="subscribePicture"
         />
-        <div class="text">
-          <h3 class="text__header">At your fingertips</h3>
-          <h2 class="title title__left">Lightning fast prototyping</h2>
-          <h4 class="description description__text--hidden">
+        <div class="subscribe-text">
+          <h3 class="subscribe-text__header">At your fingertips</h3>
+          <h2 class="title title--left">Lightning fast prototyping</h2>
+          <h4 class="subtitle subscribe-text--hidden">
             Most calendars are designed for teams. Slate is designed for
             freelancers
           </h4>
           <img
-            class="img img__mobile"
+            class="subscribe__mobile"
             src="./images/undraw_newsletter_vovu.jpg"
             alt="subscribePicture"
           />          
-          <h3 class="text__header">Subscribe to our Newsletter</h3>
-          <p class="item__description">Available exclusivery on Figmaland</p>
-          <form class="form">
+          <h3 class="subscribe-text__header">Subscribe to our Newsletter</h3>
+          <p class="subscribe-text__description">Available exclusivery on Figmaland</p>
+          <form class="form subscribe__form">
             <input
-              class="form__input"
+              class="input subscribe__input"
               type="email"
               placeholder="Your Email"
               pattern=".+@.com"
               required
             />
-            <button class="btn btn__subscribe" type="submit">Subscribe</button>
+            <button class="btn subscribe__btn" type="submit">Subscribe</button>
           </form>
         </div>
       </div>
 <!-- ////////////////////////////////////////////////////////////////////       -->
       <div class="partners-wrapper">
-        <h2 class="title">Partners</h2>
-          <h4 class="description">
+        <h2 class="title title--center">Partners</h2>
+          <h4 class="subtitle subtitle--center">
             Most calendars are designed for teams. Slate is designed for
             freelancers
           </h4>
@@ -268,10 +269,10 @@
           >
       </div>
  <!-- ////////////////////////////////////////////////////////////////////      -->
-      <div class="testimonials-wrapper">
-        <h2 class="title">Testimonials</h2>
-        <img class="img__brand" src="./images/logos_ibm.jpg" alt="IBM" />
-        <h4 class="description">
+      <div class="testimonials">
+        <h2 class="title title--center">Testimonials</h2>
+        <img class="testimonials__img" src="./images/logos_ibm.jpg" alt="IBM" />
+        <h4 class="subtitle subtitle--center">
           Most calendars are designed for teams. Slate is designed for
           freelancers who want a simple way to plan their schedule.
         </h4>
@@ -286,25 +287,25 @@
           </div>
         </div>
         <button class="btn">More Testimonials</button>
-<!-- ////////////////////////////////////////////////////////////////////         -->
       </div>
-      <div id="pricing" class="pricing-wrapper">
-        <h2 class="title title__pricing">Pricing</h2>
-        <h4 class="description">
+      <!-- ////////////////////////////////////////////////////////////////////         -->
+      <div id="pricing" class="pricing">
+        <h2 class="title pricing__title">Pricing</h2>
+        <h4 class="subtitle subtitle--center">
           Most calendars are designed for teams. Slate is designed for
           freelancers
         </h4>
         <div class="proposal">
           <div class="proposal__card">
             <h3 class="proposal__title">FREE</h3>
-            <h6 class="proposal__description">
+            <h6 class="proposal__subtitle">
               Organize across all apps by hand
             </h6>
             <div class="proposal__price">
               <h2 class="proposal__number">0</h2>
               <div class="proposal__text">
                 <h3 class="proposal__title">$</h3>
-                <h6 class="proposal__description">Per Month</h6>
+                <h6 class="proposal__subtitle">Per Month</h6>
               </div>
             </div>
             <ul>
@@ -318,7 +319,7 @@
           </div>
           <div class="proposal__card--middle">
             <h3 class="proposal__title">STANDARD</h3>
-            <h6 class="proposal__description">
+            <h6 class="proposal__subtitle">
               Organize across all apps by hand
             </h6>
             <div class="proposal__price">
@@ -335,7 +336,7 @@
               <li class="proposal__feature">Pricing Feature</li>
               <li class="proposal__feature">Pricing Feature</li>
             </ul>
-            <button class="btn btn__style--color">Order Now</button>
+            <button class="btn proposal__btn">Order Now</button>
           </div>
           <div class="proposal__card">
             <h3 class="proposal__title">BUSINESS</h3>
@@ -362,26 +363,26 @@
       </div>
  <!-- ///////////////////////////////////////////////////////////////      -->
       <div  id="contacts" class="contacts-wrapper">
-        <h2 class="title">Contact Us</h2>
-        <h4 class="description">
+        <h2 class="title title--center">Contact Us</h2>
+        <h4 class="subtitle subtitle--center">
           Most calendars are designed for teams. Slate is designed for
           freelancers
         </h4>
-        <div class="socials__mobile">
+        <div class="socials contacts-wrapper__socials--visibility">
           <a
-             class="socials__item--color"
+             class="socials__item--blue"
              href="https://twitter.com/"
              target="_blank"
              ><i class="fab fa-twitter fa-2x"></i
            ></a>
            <a
-             class="socials__item--color"
+             class="socials__item--blue"
              href="https://www.facebook.com/"
              target="_blank"
              ><i class="fab fa-facebook-square fa-2x"></i
            ></a>
            <a
-             class="socials__item--color"
+             class="socials__item--blue"
              href="https://www.linkedin.com/"
              target="_blank"
              ><i class="fab fa-linkedin fa-2x"></i
@@ -480,14 +481,14 @@
         </div>
         <div class="contacts">
           <form class="contacts__form">
-            <h3 class="form__title">Contact Us</h3>
-            <input class="form__input contacts__form--input" type="text" placeholder="Your Name" />
-            <input class="form__input contacts__form--input" type="email" placeholder="Your Email" pattern=".+@.com" required />
+            <h3 class="contacts__title">Contact Us</h3>
+            <input class="input contacts__input" type="text" placeholder="Your Name" />
+            <input class="input contacts__input" type="email" placeholder="Your Email" pattern=".+@.com" required />
             <textarea
-              class="contacts__form--textarea"
+              class="contacts__textarea"
               placeholder="Your Message"
             ></textarea>
-            <button class="btn" type="submit">Send</button>
+            <button class="btn contacts__btn" type="submit">Send</button>
           </form>
           <div class="location">
             <div class="location__icons">
@@ -584,28 +585,28 @@
             </div>
             <div class="location__map">
               <iframe
-                class="location__map--google"
+                class="location__map--pos"
                 src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=hayes%20valley+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               ></iframe
               ><a href="https://www.maps.ie/draw-radius-circle-map/"
                 >Measure km radius</a
               >
             </div>
-            <div class="socials socials__desktop">
+            <div class="socials contacts__socials--visibility">
               <a
-                 class="socials__item--color"
+                 class="socials__item--blue"
                  href="https://twitter.com/"
                  target="_blank"
                  ><i class="fab fa-twitter fa-2x"></i
                ></a>
                <a
-                 class="socials__item--color"
+                 class="socials__item--blue"
                  href="https://www.facebook.com/"
                  target="_blank"
                  ><i class="fab fa-facebook-square fa-2x"></i
                ></a>
                <a
-                 class="socials__item--color"
+                 class="socials__item--blue"
                  href="https://www.linkedin.com/"
                  target="_blank"
                  ><i class="fab fa-linkedin fa-2x"></i
@@ -719,7 +720,7 @@
             </svg>
             <h6 class="footer__contacts footer__contacts--pos">(239) 555-0108</h6>
           </div>
-          <div class="socials footer__socials--style"> 
+          <div class="socials footer__socials"> 
               <a
                 href="https://twitter.com/"
                 target="_blank"

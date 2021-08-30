@@ -37,9 +37,9 @@
     &__location {
       display: flex;
       width: 70%;
-      margin: 0 auto;
+      margin: 10px auto;
       @media (min-width: 768px) {
-        margin: 0;
+        margin: 10px 0;
       }
     }
     &__contacts {
@@ -50,15 +50,10 @@
         text-align: left;
       }      
     }
-    &__socials--style {
-      width: 170px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: $fs-h3;
+    &__socials {
+      margin: 20px auto;
       @media (min-width: 768px) {
-        margin: 0;
+        margin: 20px 0;
       }
     }
   }

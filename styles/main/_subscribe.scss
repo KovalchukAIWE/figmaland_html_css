@@ -1,77 +1,82 @@
-.subscribe-wrapper {
+.subscribe {
     width: 80%;
     display: flex;
     margin: 80px auto;
     text-align: center;
     @media (min-width: 768px) {
-      width: 60%;
+      width: 70%;
       justify-content: space-between;
       text-align: left;
     }
-  }
-
-  .img{
     &__desktop {
       display: none;
-    }
-    &__mobile {
-      max-width: 355px;
-      margin: 60px auto;
-    }
-    @media (min-width: 768px) {
-      &__desktop {
+      @media (min-width: 768px) {
         display: block;
         width: 50%;
       }
     }
+    &__mobile {
+      max-width: 355px;
+      margin: 60px auto;
+      @media (min-width: 768px) {
+        display: none;
+      }
+    }
+    &__btn {
+      width: 353px;
+      height: 54px;
+      margin-top: 12px;
+      @media (min-width: 768px) {
+        width: 172px;
+        height: 58px;
+        margin-left: 12px;
+        margin-top: 0;
+      }
+    }
+    &__form {
+      margin-top: 35px;
+      margin-bottom: 35px;
+    }
+    &__input {
+      width: 353px;
+      height: 54px;
+      padding-left: 39px;
+      @media (min-width: 768px) {
+        width: 273px;
+      }
+    }
   }
 
-  .text__header {
+  .subscribe-text {
+    padding-top: 50px;
+    &__header {
     font-size: $fs-h3;
     font-weight: $fw-bold;
     @media (min-width: 768px) {
       margin-bottom: 17px;
     }
+   }
+   &__description {
+     font-size: $fs-p;
+     font-weight: $fw-regular;
+   }
+    &--hidden {
+      @media (min-width: 768px) {
+        display: none;
+      }      
   }
+}
 
   .form {
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 35px;
-    margin-bottom: 35px;
-    &__input {
-      width: 353px;
-      height: 54px;
-      border: none;
-      border-radius: 27px;
-      background-color: $c-input;
-      padding-left: 39px;
-    }
+    flex-wrap: wrap;    
     @media (min-width: 768px) {
       flex-wrap: nowrap;
     }
   }
 
-  .btn__subscribe {
-    width: 353px;
-    height: 54px;
-    margin-top: 12px;
-    @media (min-width: 768px) {
-      width: 172px;
-      height: 58px;
-      margin-left: 12px;
-      margin-top: 0;
-    }
-  }
-
-  @media (min-width: 768px) {
-  .img__mobile,
-  .description__text--hidden {
-    display: none;
-  }
-  
-  .subscribe-form__input {
-    width: 234px;
-    height: 54px;
-  }
+  .input {    
+    border: none;
+    border-radius: 27px;
+    background-color: $c-input;    
   }

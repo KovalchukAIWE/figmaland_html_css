@@ -1,18 +1,17 @@
-.testimonials-wrapper {
+.testimonials {
     margin: 100px auto;
     @media (min-width: 768px) {
       margin: 180px auto;
     }
-  }
-  
-  .img__brand {
-    display: flex;
-    margin: 95px auto 45px;
-    @media (min-width: 768px) {
-      margin: 80px auto 60px;
+    &__img {
+      display: flex;
+      margin: 95px auto 45px;
+      @media (min-width: 768px) {
+        margin: 80px auto 60px;
+      }
     }
   }
-  
+    
   .avatar {
     width: 200px;
     height: 55px;
