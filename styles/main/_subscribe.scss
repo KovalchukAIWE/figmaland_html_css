@@ -49,6 +49,9 @@
 
   .subscribe-text {
     padding-top: 50px;
+    &__title {
+      text-align: left;
+    }
     &__header {
     font-size: $fs-h3;
     font-weight: $fw-bold;

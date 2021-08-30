@@ -3,6 +3,18 @@
     &--pos {
       margin: 30px auto;
     }
+    &__title {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      @media (min-width: 768px) {
+        text-align: left;
+      }
+    }
+    &__subtitle {
+      text-align: left;
+      width: 90%;
+      margin: 0;
+    }
     @media (min-width: 768px) {
       width: 70%;
       display: flex;

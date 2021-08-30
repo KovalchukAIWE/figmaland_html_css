@@ -1,16 +1,33 @@
-$c-blue: #2091f9;
-$c-dark: #252b42;
-$c-white: #fff;
-$c-input: #f4f4f4;
+$color-btn: #2091f9;
+$color-bg-dark: #252b42;
+$color-bg-white: #fff;
+$color-bg-input: #f4f4f4;
 
-$fw-regular: 400;
-$fw-bold: 700;
+$c-blue: $color-btn;
+$c-dark: $color-bg-dark;
+$c-white: $color-bg-white;
+$c-input: $color-bg-input;
 
-$fs-link: 15px;
-$fs-p: 18px;
-$fs-btn: 20px;
-$fs-h1: 74px;
-$fs-h2: 48px;
-$fs-h3: 20px;
-$fs-h4: 28px;
-$fs-h5: 16px;
+$font-thin: 400;
+$font-bold: 700;
+
+$fw-regular: $font-thin;
+$fw-bold: $font-bold;
+
+$fs-15px: 15px;
+$fs-18px: 18px;
+$fs-20px: 20px;
+$fs-74px: 74px;
+$fs-48px: 48px;
+$fs-20px: 20px;
+$fs-28px: 28px;
+$fs-16px: 16px;
+
+$fs-link: $fs-15px;
+$fs-p: $fs-18px;
+$fs-btn: $fs-20px;
+$fs-h1: $fs-74px;
+$fs-h2: $fs-48px;
+$fs-h3: $fs-20px;
+$fs-h4: $fs-28px;
+$fs-h5: $fs-16px;

@@ -15,6 +15,13 @@
   }
 
   .contacts {
+    &__title {
+      text-align: center;
+      margin: 0 auto; 
+    }
+    &__subtitle {
+      margin: 50px auto 80px;   
+    }
     &__form {
       width: 378px;
       height: 669px;

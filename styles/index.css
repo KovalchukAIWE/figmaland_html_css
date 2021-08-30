@@ -98,19 +98,12 @@
   @media (min-width: 768px) {
     .heading {
       width: 35%; } }
+  .heading__subtitle {
+    margin: 50px auto 80px; }
 
 .title {
   font-size: 48px;
   font-weight: 400; }
-  .title--center {
-    text-align: center;
-    margin: 0 auto; }
-  .title--left {
-    margin-top: 20px;
-    margin-bottom: 20px; }
-    @media (min-width: 768px) {
-      .title--left {
-        text-align: left; } }
 
 .subtitle {
   width: 285px;
@@ -121,13 +114,7 @@
   overflow: hidden; }
   @media (min-width: 768px) {
     .subtitle {
-      width: 790px; }
-      .subtitle--left {
-        text-align: left;
-        width: 90%;
-        margin: 0; } }
-  .subtitle--center {
-    margin: 50px auto 80px; }
+      width: 790px; } }
 
 .btn {
   margin: 0 auto;
@@ -269,6 +256,12 @@
       .footer__socials {
         margin: 20px 0; } }
 
+.features-wrapper__title {
+  text-align: center;
+  margin: 0 auto; }
+.features-wrapper__subtitle {
+  margin: 50px auto 80px; }
+
 .features {
   width: 80%;
   display: flex;
@@ -325,6 +318,16 @@
   width: 80%; }
   .hero--pos {
     margin: 30px auto; }
+  .hero__title {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    @media (min-width: 768px) {
+      .hero__title {
+        text-align: left; } }
+  .hero__subtitle {
+    text-align: left;
+    width: 90%;
+    margin: 0; }
   @media (min-width: 768px) {
     .hero {
       width: 70%;
@@ -403,6 +406,8 @@
 
 .subscribe-text {
   padding-top: 50px; }
+  .subscribe-text__title {
+    text-align: left; }
   .subscribe-text__header {
     font-size: 20px;
     font-weight: 700; }
@@ -430,6 +435,11 @@
 
 .partners-wrapper {
   margin: 50px auto; }
+  .partners-wrapper__title {
+    text-align: center;
+    margin: 0 auto; }
+  .partners-wrapper__subtitle {
+    margin: 50px auto 80px; }
 
 .partners {
   width: 275px;
@@ -499,6 +509,11 @@
     @media (min-width: 768px) {
       .testimonials__img {
         margin: 80px auto 60px; } }
+  .testimonials__title {
+    text-align: center;
+    margin: 0 auto; }
+  .testimonials__subtitle {
+    margin: 50px auto 80px; }
 
 .avatar {
   width: 200px;
@@ -520,11 +535,12 @@
   background-color: #252b42;
   color: #fff;
   padding-bottom: 100px; }
-
-.pricing__title {
-  padding-top: 100px;
-  text-align: center;
-  margin: 0 auto; }
+  .pricing__title {
+    padding-top: 100px;
+    text-align: center;
+    margin: 0 auto; }
+  .pricing__subtitle {
+    margin: 50px auto 80px; }
 
 .proposal {
   display: flex;
@@ -599,6 +615,11 @@
       width: 60%;
       margin: 200px auto 100px; } }
 
+.contacts__title {
+  text-align: center;
+  margin: 0 auto; }
+.contacts__subtitle {
+  margin: 50px auto 80px; }
 .contacts__form {
   width: 378px;
   height: 669px;

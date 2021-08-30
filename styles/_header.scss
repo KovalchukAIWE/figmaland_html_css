@@ -121,22 +121,14 @@
     @media (min-width: 768px) {
       width: 35%;
     }
+    &__subtitle {
+      margin: 50px auto 80px;
+    }
   }
 
   .title {    
     font-size: $fs-h2;
     font-weight: $fw-regular;
-    &--center {
-      text-align: center;
-      margin: 0 auto;      
-    }
-    &--left {
-      margin-top: 20px;
-      margin-bottom: 20px;
-      @media (min-width: 768px) {
-        text-align: left;
-      }
-    }
   }
   
   .subtitle {
@@ -148,14 +140,6 @@
     overflow: hidden;
     @media (min-width: 768px) {
       width: 790px;
-      &--left {
-        text-align: left;
-        width: 90%;
-        margin: 0;
-      }
-    }
-    &--center {
-      margin: 50px auto 80px;
     }
   }
   

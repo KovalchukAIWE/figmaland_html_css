@@ -1,5 +1,12 @@
 .partners-wrapper {
     margin: 50px auto;
+    &__title {
+      text-align: center;
+      margin: 0 auto; 
+    }
+    &__subtitle {
+      margin: 50px auto 80px;   
+    }
   }
   
   .partners {
