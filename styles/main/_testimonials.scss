@@ -22,18 +22,15 @@
   .avatar {
     width: 200px;
     height: 55px;
-    display: flex;
-    justify-content: space-between;
+    @include df-sb; 
     margin: 60px auto 80px;
     &__title {
       align-items: center;
-      font-size: $fs-h5;
-      font-weight: $fw-regular;
+      @include font-avatar-title;
       margin: 5px 0;
     }
     &__description {
       align-items: center;
-      font-size: $fs-link;
-      font-weight: $fw-regular;
+      @include font-link;
     }
   }

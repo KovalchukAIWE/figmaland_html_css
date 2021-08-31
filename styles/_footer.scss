@@ -2,8 +2,7 @@
     background-color: $c-dark;
     color: $c-white;
     &__container {      
-      display: flex;
-      justify-content: space-between;
+      @include df-sb;
       flex-wrap: wrap;      
       &--pos {
         padding: 150px 0;

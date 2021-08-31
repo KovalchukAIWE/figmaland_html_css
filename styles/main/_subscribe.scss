@@ -1,11 +1,10 @@
 .subscribe {
     width: 80%;
-    display: flex;
+    @include df-sb;
     margin: 80px auto;
     text-align: center;
     @include mq-tablet {
       width: 70%;
-      justify-content: space-between;
       text-align: left;
     }
     &__desktop {
@@ -69,8 +68,7 @@
 }
 
   .form {
-    display: flex;
-    flex-wrap: wrap;    
+    @include df-fw;    
     @include mq-tablet {
       flex-wrap: nowrap;
     }

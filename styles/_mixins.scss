@@ -18,6 +18,11 @@
   font-weight: $fw-bold;
 }
 
+@mixin font-avatar-title {
+  font-size: $fs-h5;
+  font-weight: $fw-regular;
+}
+
 @mixin font-card-subtitle {
   font-size: $fs-p;
   font-weight: $fw-regular;
@@ -34,4 +39,19 @@
 
 @mixin mq-desktop {
   @media (min-width: 1080px) { @content; }
+}
+
+@mixin df-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin df-c {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin df-fw {
+  display: flex;
+  flex-wrap: wrap;
 }

@@ -13,8 +13,7 @@
 }
 
   .proposal {
-    display: flex;
-    flex-wrap: wrap;
+    @include df-fw; 
     margin: 0 auto;
     text-align: center;
     width: 335px;
@@ -79,11 +78,9 @@
 
     @include mq-tablet {
       width: 1105px;
-      display: flex;
-      margin: 0 auto;
-      justify-content: space-between;
+      @include df-sb;
+      margin: 0 auto;      
       text-align: center;
-
       &__card {
         margin-top: 123px;
         

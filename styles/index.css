@@ -11,10 +11,10 @@
       background-image: url(../images/header_bg.jpg); } }
 
 .header {
-  width: 360px;
-  height: 112px;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  width: 360px;
+  height: 112px; }
   .header--pos {
     margin: 0 auto; }
   @media (min-width: 768px) {
@@ -29,17 +29,17 @@
     color: #fff; }
   @media (min-width: 768px) {
     .nav {
-      width: 440px;
       display: flex;
       justify-content: space-between;
+      width: 440px;
       align-items: center;
       font-size: 15px;
       font-weight: 400; } }
 
 .logo {
-  width: 440px;
   display: flex;
   align-items: center;
+  width: 440px;
   font-size: 30px;
   text-transform: uppercase;
   position: relative; }
@@ -68,9 +68,9 @@
     transform: rotate(-8deg); }
 
 .socials {
-  width: 170px;
   display: flex;
   justify-content: space-between;
+  width: 170px;
   align-items: center;
   font-size: 20px; }
   .socials--visibility {
@@ -117,9 +117,9 @@
       width: 790px; } }
 
 .btn {
-  margin: 0 auto;
   display: flex;
   justify-content: center;
+  margin: 0 auto;
   align-items: center;
   width: 236px;
   height: 52px;
@@ -274,8 +274,8 @@
   .features__cards-wrapper {
     width: 255px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap;
     order: 2; }
     .features__cards-wrapper--pos {
       margin: 80px auto; }
@@ -364,12 +364,12 @@
 .subscribe {
   width: 80%;
   display: flex;
+  justify-content: space-between;
   margin: 80px auto;
   text-align: center; }
   @media (min-width: 768px) {
     .subscribe {
       width: 70%;
-      justify-content: space-between;
       text-align: left; } }
   .subscribe__desktop {
     display: none; }
@@ -593,8 +593,8 @@
     .proposal {
       width: 1105px;
       display: flex;
-      margin: 0 auto;
       justify-content: space-between;
+      margin: 0 auto;
       text-align: center; }
       .proposal__card {
         margin-top: 123px; }
@@ -697,9 +697,9 @@
       display: block;
       margin: 60px 105px; }
     .location__icons {
-      width: 100%;
       display: flex;
       justify-content: space-between;
+      width: 100%;
       text-align: center; }
       .location__icons--mobile {
         display: none; }

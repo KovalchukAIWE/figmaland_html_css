@@ -65,8 +65,7 @@
       margin-left: 20px;
     }
     @include mq-tablet {
-      display: flex;
-      justify-content: space-between;
+      @include df-sb;
       &__form {
         width: 34%;
         height: 669px;
@@ -119,9 +118,8 @@
         margin: 60px 105px;
       }
       &__icons {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
+        @include df-sb;
+        width: 100%;        
         text-align: center;
         &--mobile {
           display: none;

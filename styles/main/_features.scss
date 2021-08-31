@@ -10,8 +10,7 @@
   
   .features {
     width: 80%;
-    display: flex;
-    flex-wrap: wrap;
+    @include df-fw;
     &--pos {
       margin: 0 auto;
     }
@@ -20,9 +19,8 @@
     }
     &__cards-wrapper {    
       width: 255px;
-      display: flex;
+      @include df-sb;
       flex-wrap: wrap;
-      justify-content: space-between;
       order: 2;
       &--pos {
         margin: 80px auto;

@@ -17,8 +17,7 @@
     }
     @include mq-tablet {
       width: 70%;
-      display: flex;
-      justify-content: space-between;
+      @include df-sb;
       &--pos {
         margin: 226px auto;
       }
