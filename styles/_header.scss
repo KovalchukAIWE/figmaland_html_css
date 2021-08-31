@@ -11,6 +11,10 @@
     }
     @include mq-tablet {
       background-image: url(../images/header_bg.jpg);
+      height: 564px;
+    }
+    @include mq-desktop {
+      height: 847px;
     }
   }
   
@@ -23,7 +27,11 @@
     }
     @include mq-tablet {
       width: 60%;
-      height: 156px;
+      height: 110px;
+    }
+    @include mq-desktop {
+      width: 74%;
+      height: 156px;      
     }
   }
   
@@ -33,7 +41,7 @@
       text-decoration: none;
       color: $c-white;
     }
-    @include mq-tablet {
+    @include mq-desktop {
         @include df-sb;
         width: 440px;
         align-items: center;
@@ -44,7 +52,8 @@
   .logo {
     display: flex;
     align-items: center;
-    width: 440px;
+    width: 360px;
+    margin-left: 57px;
     font-size: 30px;
     text-transform: uppercase;
     position: relative;
@@ -60,7 +69,7 @@
       );
       position: absolute;
       top: 30px;
-      @include mq-tablet {
+      @include mq-desktop {
         top: 51px;
       }
     }
@@ -103,7 +112,7 @@
         }
     }
   }
-  @include mq-tablet {
+  @include mq-desktop {
       display: flex;      
   }
 }
@@ -114,12 +123,18 @@
     text-align: center;    
     &--pos {
       margin: 100px auto 0;
+      @include mq-tablet {
+        margin: 0 auto;
+      }
     }
     @include mq-tablet {
-      width: 35%;
+      width: 80%;
     }
     &__subtitle {
       margin: 50px auto 80px;
+    }
+    @include mq-desktop {
+      width: 45%;
     }
   }
 
@@ -129,12 +144,13 @@
   
   .subtitle {
     @include font-subtitle;
-    width: 285px;
+    width: 60%;
     height: 70px;    
     text-align: center;
     overflow: hidden;
-    @include mq-tablet {
-      width: 790px;
+    margin: 0 auto;
+    @include mq-desktop {
+      margin: 75px auto;
     }
   }
   
@@ -154,5 +170,6 @@
     }
     &:hover {
       transform: scale(1.1);
+      transition-duration: 0.25s;
     }
   }

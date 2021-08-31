@@ -75,7 +75,7 @@
     transition-duration: 0.25s;
   }  
 
-  @media (min-width: 768px) {
+  @include mq-desktop {
     .burger-menu {
       display: none;
     }

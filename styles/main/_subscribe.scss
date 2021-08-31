@@ -12,10 +12,14 @@
       @include mq-tablet {
         display: block;
         width: 50%;
+        height: 300px;
+      }
+      @include mq-desktop {
+        height: auto;
       }
     }
     &__mobile {
-      max-width: 355px;
+      width: 255px;
       margin: 60px auto;
       @include mq-tablet {
         display: none;
@@ -32,10 +36,6 @@
         margin-top: 0;
       }
     }
-    &__form {
-      margin-top: 35px;
-      margin-bottom: 35px;
-    }
     &__input {
       width: 353px;
       height: 54px;
@@ -49,11 +49,15 @@
   .subscribe-text {
     padding-top: 50px;
     &__title {
-      text-align: left;
+      text-align: center;
+      @include mq-tablet {
+        text-align: left;
+      }
     }
     &__header {
     @include font-card-title;
     @include mq-tablet {
+      width: 50%;
       margin-bottom: 17px;
     }
    }
@@ -68,9 +72,13 @@
 }
 
   .form {
-    @include df-fw;    
+    @include df-fw;
+    width: 58%;
+    margin: 20px auto;
     @include mq-tablet {
       flex-wrap: nowrap;
+      width: 80%;
+      margin: 35px 0;
     }
   }
 

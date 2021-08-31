@@ -14,6 +14,9 @@
       }
       @include mq-tablet {
         flex-wrap: nowrap;
+        width: 90%;
+      }
+      @include mq-desktop {
         width: 60%;
       }
     }
@@ -35,10 +38,14 @@
     }
     &__location {
       display: flex;
+      justify-content: center;
       width: 70%;
       margin: 10px auto;
       @include mq-tablet {
         margin: 10px 0;
+      }
+      @include mq-desktop {
+        justify-content: start;
       }
     }
     &__contacts {

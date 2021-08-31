@@ -77,18 +77,23 @@
     }
 
     @include mq-tablet {
-      width: 1105px;
-      @include df-sb;
+      width: 669px;
+      justify-content: center;      
       margin: 0 auto;      
       text-align: center;
-      &__card {
-        margin-top: 123px;
-        
+      &__card {       
         &--middle {
           height: 693px;
           margin-top: 80px;
           padding-top: 40px;
         }
+      }
+    }
+    @include mq-desktop {
+      width: 1105px;
+      @include df-sb;
+      &__card {
+        margin-top: 123px; 
       }
     }
   }

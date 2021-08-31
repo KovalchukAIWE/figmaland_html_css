@@ -9,7 +9,7 @@
       }      
     }
     @include mq-tablet {
-      width: 60%;
+      width: 70%;
       margin: 200px auto 100px;
     }    
   }
@@ -17,28 +17,35 @@
   .contacts {
     &__title {
       text-align: center;
-      margin: 0 auto; 
+      margin: 52px auto 45px; 
     }
+    
     &__subtitle {
       margin: 50px auto 80px;   
     }
+
     &__form {
-      width: 378px;
+      width: 80%;
       height: 669px;
       border: 1px solid #dddddd;
       box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
       border-radius: 20px;
       text-align: center;
-      margin: 0 auto;      
+      margin: 0 auto;
+      @include mq-desktop {
+        width: 35%;
+      }
     }
+
     &__input {
-      width: 280px;
+      width: 80%;
       height: 54px;
       margin-bottom: 45px;
       padding-left: 20px;
     }
+
     &__textarea {
-      width: 280px;
+      width: 80%;
       height: 193px;
       background-color: $c-input;
       padding: 23px 20px;
@@ -46,6 +53,7 @@
       resize: none;
       margin-bottom: 45px;
     }
+
     &__socials{
       &--visibility {
         display: none;
@@ -54,44 +62,43 @@
         }
       }
     }
-    &__title {
-      margin-top: 52px;
-      margin-bottom: 45px;
-      font-size: $fs-h3;
-      font-weight: $fw-bold;
-    }
+
     &__btn {
       width: 145px;
       margin-left: 20px;
     }
+
     @include mq-tablet {
-      @include df-sb;
-      &__form {
-        width: 34%;
-        height: 669px;
-      }
+      
+      // &__form {
+      //   width: 34%;
+      //   height: 669px;
+      // }
       &__input {
-        width: 353px;
+        // width: 353px;
         margin-bottom: 45px;
         padding-left: 20px;
       }
       &__textarea {
-        width: 353px;
+        // width: 353px;
         height: 193px;
       }
-    }   
+    }
+    @include mq-desktop {
+      @include df-sb;
+    }
   } 
 
   .location {    
     &__text {
-      font-size: $fs-h5;
-      font-weight: $fw-regular;
+      @include font-avatar-title;
       margin-top: 20px;
       &--mobile {
         margin-top: 0;
         margin-left: 30px;
       }
     }
+
     &__map {
       display: none;
       &--pos {
@@ -100,6 +107,7 @@
         border: none;
       }
     }
+
     &__icons {
       display: none;
       &--mobile {
@@ -107,20 +115,18 @@
         margin: 50px auto;
       }
     }
+
     &__item--mobile {
       display: flex;
       margin-bottom: 15px;
     }
+
     @include mq-tablet {
-      width: 60%;
-      &__map {
-        display: block;
-        margin: 60px 105px;
-      }
+      width: 50%;
       &__icons {
-        @include df-sb;
-        width: 100%;        
-        text-align: center;
+        @include df-fw;
+        // width: 100%;        
+        // text-align: center;
         &--mobile {
           display: none;
         }
@@ -132,6 +138,17 @@
         &:last-child {
           margin-top: 10px;
         }
+      }
+    }
+    @include mq-desktop {
+      &__map {
+        display: block;
+        margin: 60px 105px;
+      }
+      &__icons {
+        @include df-sb;
+        flex-wrap: nowrap;
+        text-align: center;
       }
     }
   }
