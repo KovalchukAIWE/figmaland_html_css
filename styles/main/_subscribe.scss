@@ -3,14 +3,14 @@
     display: flex;
     margin: 80px auto;
     text-align: center;
-    @media (min-width: 768px) {
+    @include mq-tablet {
       width: 70%;
       justify-content: space-between;
       text-align: left;
     }
     &__desktop {
       display: none;
-      @media (min-width: 768px) {
+      @include mq-tablet {
         display: block;
         width: 50%;
       }
@@ -18,7 +18,7 @@
     &__mobile {
       max-width: 355px;
       margin: 60px auto;
-      @media (min-width: 768px) {
+      @include mq-tablet {
         display: none;
       }
     }
@@ -26,7 +26,7 @@
       width: 353px;
       height: 54px;
       margin-top: 12px;
-      @media (min-width: 768px) {
+      @include mq-tablet {
         width: 172px;
         height: 58px;
         margin-left: 12px;
@@ -41,7 +41,7 @@
       width: 353px;
       height: 54px;
       padding-left: 39px;
-      @media (min-width: 768px) {
+      @include mq-tablet {
         width: 273px;
       }
     }
@@ -53,18 +53,16 @@
       text-align: left;
     }
     &__header {
-    font-size: $fs-h3;
-    font-weight: $fw-bold;
-    @media (min-width: 768px) {
+    @include font-card-title;
+    @include mq-tablet {
       margin-bottom: 17px;
     }
    }
    &__description {
-     font-size: $fs-p;
-     font-weight: $fw-regular;
+     @include font-card-subtitle;
    }
     &--hidden {
-      @media (min-width: 768px) {
+      @include mq-tablet {
         display: none;
       }      
   }
@@ -73,7 +71,7 @@
   .form {
     display: flex;
     flex-wrap: wrap;    
-    @media (min-width: 768px) {
+    @include mq-tablet {
       flex-wrap: nowrap;
     }
   }

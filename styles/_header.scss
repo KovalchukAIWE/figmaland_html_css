@@ -1,3 +1,5 @@
+  @import "./mixins";
+  
   .header-wrapper {
     height: 847px;
     background-image: url(../images/mobile_header_bg.jpg);
@@ -7,7 +9,7 @@
     &--padding {
       padding-bottom: 20%;
     }
-    @media (min-width: 768px) {
+    @include mq-tablet {
       background-image: url(../images/header_bg.jpg);
     }
   }
@@ -20,7 +22,7 @@
     &--pos {
       margin: 0 auto;
     }
-    @media (min-width: 768px) {
+    @include mq-tablet {
       width: 60%;
       height: 156px;
     }
@@ -32,7 +34,7 @@
       text-decoration: none;
       color: $c-white;
     }
-    @media (min-width: 768px) {
+    @include mq-tablet {
         width: 440px;
         display: flex;
         justify-content: space-between;
@@ -61,7 +63,7 @@
       );
       position: absolute;
       top: 30px;
-      @media (min-width: 768px) {
+      @include mq-tablet {
         top: 51px;
       }
     }
@@ -105,20 +107,19 @@
         }
     }
   }
-    @media (min-width: 768px) {
+  @include mq-tablet {
       display: flex;      
   }
 }
    
   .heading {
+    @include font-heading;
     width: 353px;
-    text-align: center;
-    font-size: $fs-h2;
-    font-weight: $fw-bold;
+    text-align: center;    
     &--pos {
       margin: 100px auto 0;
     }
-    @media (min-width: 768px) {
+    @include mq-tablet {
       width: 35%;
     }
     &__subtitle {
@@ -127,18 +128,16 @@
   }
 
   .title {    
-    font-size: $fs-h2;
-    font-weight: $fw-regular;
+    @include font-title;
   }
   
   .subtitle {
+    @include font-subtitle;
     width: 285px;
     height: 70px;    
     text-align: center;
-    font-size: $fs-h4;
-    font-weight: $fw-regular;
     overflow: hidden;
-    @media (min-width: 768px) {
+    @include mq-tablet {
       width: 790px;
     }
   }

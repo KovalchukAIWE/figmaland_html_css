@@ -3,12 +3,12 @@
     &__socials {
       &--visibility {
         margin: 0 auto;
-        @media (min-width: 768px) {
+        @include mq-tablet {
           display: none;
         }
       }      
     }
-    @media (min-width: 768px) {
+    @include mq-tablet {
       width: 60%;
       margin: 200px auto 100px;
     }    
@@ -49,7 +49,7 @@
     &__socials{
       &--visibility {
         display: none;
-        @media (min-width: 768px) {
+        @include mq-tablet {
           display: flex;
         }
       }
@@ -64,7 +64,7 @@
       width: 145px;
       margin-left: 20px;
     }
-    @media (min-width: 768px) {
+    @include mq-tablet {
       display: flex;
       justify-content: space-between;
       &__form {
@@ -112,7 +112,7 @@
       display: flex;
       margin-bottom: 15px;
     }
-    @media (min-width: 768px) {
+    @include mq-tablet {
       width: 60%;
       &__map {
         display: block;

@@ -9,18 +9,18 @@
         padding: 150px 0;
         margin: 0 auto;
         text-align: center;
-        @media (min-width: 768px) {
+        @include mq-tablet {
           text-align: left;
         }
       }
-      @media (min-width: 768px) {
+      @include mq-tablet {
         flex-wrap: nowrap;
         width: 60%;
       }
     }
     &__column {
       width: 100%;
-      @media (min-width: 768px) {
+      @include mq-tablet {
         width: calc(100%/4);
       }
     }
@@ -38,13 +38,12 @@
       display: flex;
       width: 70%;
       margin: 10px auto;
-      @media (min-width: 768px) {
+      @include mq-tablet {
         margin: 10px 0;
       }
     }
     &__contacts {
-      font-size: $fs-link;
-      font-weight: $fw-regular;
+      @include font-link;
       &--pos {
         padding: 10px;    
         text-align: left;
@@ -52,7 +51,7 @@
     }
     &__socials {
       margin: 20px auto;
-      @media (min-width: 768px) {
+      @include mq-tablet {
         margin: 20px 0;
       }
     }

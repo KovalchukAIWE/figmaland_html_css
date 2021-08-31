@@ -1,0 +1,37 @@
+@mixin font-title {
+  font-size: $fs-h2;
+  font-weight: $fw-regular;
+}
+
+@mixin font-subtitle {
+  font-size: $fs-h4;
+  font-weight: $fw-regular;
+}
+
+@mixin font-heading {
+  font-size: $fs-h2;
+  font-weight: $fw-bold;
+}
+
+@mixin font-card-title {
+  font-size: $fs-h3;
+  font-weight: $fw-bold;
+}
+
+@mixin font-card-subtitle {
+  font-size: $fs-p;
+  font-weight: $fw-regular;
+}
+
+@mixin font-link {
+  font-size: $fs-link;
+  font-weight: $fw-regular;
+}
+
+@mixin mq-tablet {
+  @media (min-width: 768px) { @content; }
+}
+
+@mixin mq-desktop {
+  @media (min-width: 1080px) { @content; }
+}

@@ -6,7 +6,7 @@
     &__title {
       margin-top: 20px;
       margin-bottom: 20px;
-      @media (min-width: 768px) {
+      @include mq-tablet {
         text-align: left;
       }
     }
@@ -15,7 +15,7 @@
       width: 90%;
       margin: 0;
     }
-    @media (min-width: 768px) {
+    @include mq-tablet {
       width: 70%;
       display: flex;
       justify-content: space-between;
@@ -23,13 +23,13 @@
         margin: 226px auto;
       }
     }
-    @media (min-width: 1080px) {
+    @include mq-desktop {
       width: 60%;
     }
     &__left-block {
       width: 100%;
       margin: 0 auto;
-      @media (min-width: 768px) {
+      @include mq-tablet {
         width: 50%;
       }
       &--mobile {
@@ -38,7 +38,7 @@
     }
     &__btn {
       margin: 60px auto;
-      @media (min-width: 768px) {
+      @include mq-tablet {
         margin-left: 0;
       }
     }
@@ -47,7 +47,7 @@
       height: 210px;
       margin: 0 auto;
       text-align: center;
-      @media (min-width: 768px) {
+      @include mq-tablet {
         width: 50%;
         height: 100%;
       }

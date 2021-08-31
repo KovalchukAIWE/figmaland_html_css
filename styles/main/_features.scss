@@ -1,4 +1,4 @@
-  .features-wrapper {
+.features-wrapper {
     &__title {
       text-align: center;
       margin: 0 auto; 
@@ -15,7 +15,7 @@
     &--pos {
       margin: 0 auto;
     }
-    @media (min-width: 768px) {
+    @include mq-tablet {
       width: 50%;
     }
     &__cards-wrapper {    
@@ -27,7 +27,7 @@
       &--pos {
         margin: 80px auto;
       }
-        @media (min-width: 768px) {
+      @include mq-tablet {
           width: 100%;
           flex-wrap: nowrap;
           order: 1;
@@ -40,15 +40,13 @@
         }
       }
       &__title {
-        font-size: $fs-h3;
-        font-weight: $fw-bold;
+        @include font-card-title;
         &--pos {
           margin: 10px 0;
         }
       }
       &__subtitle {
-        font-size: $fs-p;
-        font-weight: $fw-regular;
+        @include font-card-subtitle;
       }
   }
   
@@ -62,7 +60,7 @@
     &--pos {
       margin: 50px auto;
     }
-      @media (min-width: 768px) {
+      @include mq-tablet {
         order: 2;
         width: 760px;
         height: 500px;
