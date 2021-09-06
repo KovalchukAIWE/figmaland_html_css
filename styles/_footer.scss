@@ -1,62 +1,79 @@
 .footer {
     background-color: $c-dark;
     color: $c-white;
+
     &__container {      
       @include df-sb;
-      flex-wrap: wrap;      
+      flex-wrap: wrap;  
+
       &--pos {
         padding: 150px 0;
         margin: 0 auto;
         text-align: center;
+
         @include mq-tablet {
           text-align: left;
         }
       }
+
       @include mq-tablet {
         flex-wrap: nowrap;
         width: 90%;
       }
+
       @include mq-desktop {
         width: 60%;
       }
     }
+
     &__column {
       width: 100%;
+
       @include mq-tablet {
         width: calc(100%/4);
       }
     }
+
     &__title {
       font-size: $fs-h3;
       font-weight: $fw-bold;
+
       &--pos {
         margin-bottom: 15px;
       }      
     }
+
     &__item--padding {
       padding: 15px 0;
     }
+
     &__location {
       display: flex;
       justify-content: center;
       width: 70%;
       margin: 10px auto;
+
       @include mq-tablet {
         margin: 10px 0;
       }
+
       @include mq-desktop {
         justify-content: start;
       }
     }
+
     &__contacts {
       @include font-link;
+      
       &--pos {
         padding: 10px;    
         text-align: left;
       }      
     }
+
     &__socials {
       margin: 20px auto;
+
       @include mq-tablet {
         margin: 20px 0;
       }

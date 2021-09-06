@@ -2,11 +2,13 @@
   background-color: $c-dark;
   color: $c-white;
   padding-bottom: 100px;
+
   &__title {
     padding-top: 100px;
     text-align: center;
     margin: 0 auto; 
   }
+
   &__subtitle {
     margin: 50px auto 80px;   
   }
@@ -89,6 +91,7 @@
         }
       }
     }
+    
     @include mq-desktop {
       width: 1105px;
       @include df-sb;

@@ -1,5 +1,6 @@
 .hero {
     width: 80%;
+    
     &--pos {
       margin: 30px auto;
     }
@@ -20,6 +21,7 @@
         text-align: left;
       }
     }
+
     @include mq-tablet {
       width: 70%;
       @include df-sb;
@@ -27,12 +29,11 @@
         margin: 100px auto;
       }
     }
+
     @include mq-desktop {
       width: 60%;
-      // &--pos {
-      //   margin: 226px auto;
-      // }
     }
+
     &__left-block {
       width: 100%;
       margin: 0 auto;
@@ -43,12 +44,14 @@
         text-align: center;
       }
     }
+
     &__btn {
       margin: 60px auto;
       @include mq-tablet {
         margin-left: 0;
       }
     }
+
     &__img {
       display: block;
       max-width: 100%;

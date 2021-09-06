@@ -1,9 +1,11 @@
 .partners-wrapper {
     margin: 50px auto;
+
     &__title {
       text-align: center;
       margin: 0 auto; 
     }
+
     &__subtitle {
       margin: 50px auto 80px;   
     }
@@ -13,11 +15,13 @@
     width: 275px;
     margin: 80px auto;
     @include df-fw;
+
     @include mq-tablet {
       width: 768px;
       margin: 80px auto;
       justify-content: center;
     }
+
     @include mq-desktop {
       width: 1084px;
       height: 330px;
@@ -31,28 +35,30 @@
     &:hover {
       border: 1px solid $c-blue;
     }
-  }
-  
-  .item {
+
     &__text {
       font-size: $fs-h5;
       font-weight: $fw-regular;
       margin: 20px;
     }
+    
     &__first {
       width: 273px;
       height: 151px;
       margin-bottom: 30px;
     }
+
     &__second {
       width: 273px;
       height: 151px;
       margin-bottom: 30px;
     }
+
     &__third {
       width: 273px;
       height: 151px;
     }
+
     &__fourth,
     &__fifth,
     &__sixth,
@@ -60,14 +66,16 @@
     &__eighth {
       display: none;
     }
+
     @include mq-tablet {
-      &__first,
+    &__first,
     &__sixth {
       display: block;
       width: 273px;
       height: 163px;
       margin: 0;
     }
+
     &__second,
     &__eighth {
       display: block;
@@ -75,16 +83,19 @@
       height: 160px;
       margin: 0;
     }
+
     &__third {
       width: 301px;
       height: 165px;
     }
+
     &__fourth,
     &__seventh {
       display: block;
       width: 220px;
       height: 165px;
     }
+    
     &__fifth {
       display: block;
       width: 309px;

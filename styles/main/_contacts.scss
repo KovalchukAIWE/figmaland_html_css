@@ -69,18 +69,12 @@
     }
 
     @include mq-tablet {
-      
-      // &__form {
-      //   width: 34%;
-      //   height: 669px;
-      // }
+    
       &__input {
-        // width: 353px;
         margin-bottom: 45px;
         padding-left: 20px;
       }
       &__textarea {
-        // width: 353px;
         height: 193px;
       }
     }
@@ -122,15 +116,15 @@
     }
 
     @include mq-tablet {
+
       width: 50%;
       &__icons {
         @include df-fw;
-        // width: 100%;        
-        // text-align: center;
         &--mobile {
           display: none;
         }
       }
+
       &__item {
         &:first-child {
           width: 280px;
@@ -140,6 +134,7 @@
         }
       }
     }
+
     @include mq-desktop {
       &__map {
         display: block;

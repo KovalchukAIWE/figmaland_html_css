@@ -6,13 +6,16 @@
     background-repeat: no-repeat;
     background-size: 100% auto;
     color: $c-white;
+
     &--padding {
       padding-bottom: 20%;
     }
+
     @include mq-tablet {
       background-image: url(../images/header_bg.jpg);
       height: 564px;
     }
+
     @include mq-desktop {
       height: 847px;
     }
@@ -22,13 +25,16 @@
     @include df-sb;
     width: 360px;
     height: 112px;
+
     &--pos {
       margin: 0 auto;
     }
+
     @include mq-tablet {
       width: 60%;
       height: 110px;
     }
+
     @include mq-desktop {
       width: 74%;
       height: 156px;      
@@ -37,10 +43,12 @@
   
   .nav {
     display: none;
+
     &__link {
       text-decoration: none;
       color: $c-white;
     }
+
     @include mq-desktop {
         @include df-sb;
         width: 440px;
@@ -57,6 +65,7 @@
     font-size: 30px;
     text-transform: uppercase;
     position: relative;
+
     &__top {
       width: 34px;
       height: 8px;
@@ -69,10 +78,12 @@
       );
       position: absolute;
       top: 30px;
+
       @include mq-desktop {
         top: 51px;
       }
     }
+
     &__triangle {
       display: inline-block;
       width: 0;
@@ -94,10 +105,13 @@
     width: 170px;
     align-items: center;
     font-size: $fs-h3;
+
     &--visibility {
       display: none;
     }
+
     &__item {
+
       &--white {
       color: $c-white;
       &:hover {
@@ -105,13 +119,15 @@
         color: $c-blue;
       }
     }
-    &--blue {
+
+      &--blue {
       color: $c-blue;
         &:hover{
           transform: scale(1.1);
         }
     }
   }
+
   @include mq-desktop {
       display: flex;      
   }
@@ -120,19 +136,23 @@
   .heading {
     @include font-heading;
     width: 353px;
-    text-align: center;    
+    text-align: center;  
+
     &--pos {
       margin: 100px auto 0;
       @include mq-tablet {
         margin: 0 auto;
       }
     }
+
     @include mq-tablet {
       width: 80%;
     }
+
     &__subtitle {
       margin: 50px auto 80px;
     }
+
     @include mq-desktop {
       width: 45%;
     }
@@ -149,6 +169,7 @@
     text-align: center;
     overflow: hidden;
     margin: 0 auto;
+
     @include mq-desktop {
       margin: 75px auto;
     }
@@ -165,9 +186,11 @@
     border-radius: 26px;
     color: $c-white;
     @include font-card-title;
+
     &__style--fw {
       font-weight: $fw-regular;
     }
+    
     &:hover {
       transform: scale(1.1);
       transition-duration: 0.25s;

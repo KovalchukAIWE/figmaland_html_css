@@ -14,9 +14,7 @@
     &--pos {
       margin: 0 auto;
     }
-    // @include mq-tablet {
-    //   width: 50%;
-    // }
+    
     &__cards-wrapper {    
       width: 255px;
       @include df-sb;
@@ -28,21 +26,25 @@
           margin: 80px auto;
         }
       }
+
       @include mq-tablet {
         width: 80%;
         order: 1;
       }
+
       @include mq-desktop {
           width: 100%;
           flex-wrap: nowrap;
         }
       }
+
       &__card {
         text-align: center;
         &--pos {
           margin: 20px;
         }
       }
+      
       &__title {
         @include font-card-title;
         &--pos {
